@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Files</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #f5f7ff, #e7ecff);
+        font-family: Arial, sans-serif;
+      }
+
+      .actions {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .download-btn {
+        display: inline-block;
+        padding: 14px 28px;
+        border-radius: 10px;
+        background: #2f6fed;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 8px 18px rgba(47, 111, 237, 0.25);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .download-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 22px rgba(47, 111, 237, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="actions">
+      <a class="download-btn" href="MECHANICAL VIB RECORD.pdf" download="MECHANICAL VIB RECORD.pdf">Download PDF</a>
+      <a class="download-btn" href="WhatsApp Image 2026-11-11 at 3.22.08 PM.jpeg" download="WhatsApp Image 2026-11-11 at 3.22.08 PM.jpeg">Download Image</a>
+    </div>
+  </body>
+</html>
